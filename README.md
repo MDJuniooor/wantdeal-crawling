@@ -1,5 +1,32 @@
 # Crawling Server For WantDeal
 
+## 개발환경
+- python 3.7.3
+- django 3.1.4
+- scrapy 2.4.1
+- scrapy-djangoitem 1.1.1
+- pillow 8.0.1
+
+## 실행방법
+1. 디펜던시 설치
+```
+pip install -r requiremenets.txt
+```
+2. django 서버 실행
+```
+python manage.py runserver
+```
+3. crawling 실행
+```
+# 뽐뿌 크롤링 실행
+scrapy crawl bbombbu
+
+# 딜바다 크롤링 실행
+scrapy crawl dealbada
+```
+
+
+
 ## 1.0 version
 ###  크롤링 상세
 - 타겟 : 뽐뿌, 딜바다
